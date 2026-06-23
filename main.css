@@ -5785,31 +5785,31 @@ to {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/VIC-Regular.woff2') format('woff2'),
-       url('/fonts/VIC-Regular.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-Regular.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-Regular.woff') format('woff');
 }
 @font-face {
   font-family: VIC;
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/VIC-RegularItalic.woff2') format('woff2'),
-       url('/fonts/VIC-RegularItalic.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-RegularItalic.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-RegularItalic.woff') format('woff');
 }
 @font-face {
   font-family: VIC;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/VIC-Bold.woff2') format('woff2'),
-       url('/fonts/VIC-Bold.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-Bold.woff') format('woff');
 }
 @font-face {
   font-family: VIC;
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/VIC-BoldItalic.woff2') format('woff2'),
-       url('/fonts/VIC-BoldItalic.woff') format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-BoldItalic.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-BoldItalic.woff') format('woff');
 }
 /* Add any global overrides below */
