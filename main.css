@@ -4164,4 +4164,8 @@ to {
   font-display: swap;
   src: url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-BoldItalic.woff2') format('woff2'),
        url('https://cdn.jsdelivr.net/gh/deeca-isd/ps-deeca-dxp-ripple-dist@main/fonts/VIC-BoldItalic.woff') format('woff');
+}/* RplExpandable transition — defined in Vue component, not CSS file,
+   so must be added manually for non-Vue implementations */.rpl-expandable {
+  overflow: hidden;
+  transition: height var(--rpl-motion-speed-9) ease-out;
 }
