@@ -5780,3 +5780,8 @@ to {
     align-items: flex-start;
 }
 /* Add any global overrides below */
+:root {
+  /* Brand colours overrides for theme */
+  --rpl-clr-primary: #ffcc33;
+  --rpl-clr-secondary: #df12df;
+}
