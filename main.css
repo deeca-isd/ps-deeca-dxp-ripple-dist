@@ -5779,9 +5779,37 @@ to {
     display: flex;
     align-items: flex-start;
 }
-/* Add any global overrides below */
-:root {
-  /* Brand colours overrides for theme */
-  --rpl-clr-primary: #ffcc33;
-  --rpl-clr-secondary: #df12df;
+/* Override Ripple's font paths with locally hosted copies */
+@font-face {
+  font-family: VIC;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/VIC-Regular.woff2') format('woff2'),
+       url('/fonts/VIC-Regular.woff') format('woff');
 }
+@font-face {
+  font-family: VIC;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/VIC-RegularItalic.woff2') format('woff2'),
+       url('/fonts/VIC-RegularItalic.woff') format('woff');
+}
+@font-face {
+  font-family: VIC;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/VIC-Bold.woff2') format('woff2'),
+       url('/fonts/VIC-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: VIC;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/VIC-BoldItalic.woff2') format('woff2'),
+       url('/fonts/VIC-BoldItalic.woff') format('woff');
+}
+/* Add any global overrides below */
